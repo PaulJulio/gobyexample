@@ -44,4 +44,5 @@ func main() {
 	whatAmI(true)
 	whatAmI(1)
 	whatAmI("string")
+	whatAmI(make([]string, 3))
 }
